@@ -1,0 +1,66 @@
+/*REGOLE PRINCIPALI*/
+* {
+ 	margin: 0;
+ 	padding:0;
+ 	box-sizing: border-box;
+ }
+
+.container {
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: $fontFamily;
+}
+
+.btn-secondary {
+  color: white;
+  background: $baseBlue;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.logo{
+  vertical-align: middle;
+  width: 15px;
+  margin-right: 10px;
+
+}
+
+
+
+
+
+
+
+
+ /*REGOLE PRINCIPALI ---> fontSize Media Queries*/
+
+ @media all and (max-width: 1149px) {
+
+ 	* {
+ 		font-size: 14px;
+ 	}
+
+ }
+
+ @media all and (max-width: 768px) {
+
+ 	* {
+ 		font-size: 12px;
+ 	}
+
+}
+
+ @media all and (max-width: 768px) {
+
+ 	* {
+ 		font-size: 12px;
+ 	}
+
+ }
+
+ #main_container {
+ 	max-width: 100vw;
+ 	height: auto;
+ 	overflow: hidden;
+ }

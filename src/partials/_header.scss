@@ -1,0 +1,73 @@
+.header {
+  width: 100%;
+  height: 70px;
+  .container {
+    height: 100%;
+    @include borderBottom($grey);
+    .header-left, .header-right{
+      width: 50%;
+      float: left;
+      height: 100%;
+    }
+    .header-left {
+      img {
+        height: 25px;
+        margin-top: 25px;
+      }
+    }
+    .header-right{
+        ul {
+          list-style: none;
+          text-align: right;
+          line-height: 70px;
+          font-size: 14px;
+          li{
+            display: inline-block;
+            margin: 0 $baseMargin;
+
+              a{
+              color: $grey;
+              text-decoration: none;
+              font-weight: bold;
+
+
+                i{
+                margin-left: 5px;
+                color: $grey;
+                &:hover{
+                  color: $baseBlue;
+                }
+                }
+
+              &:hover {
+                color: $baseBlue;
+
+              }
+
+              &.btn-header {
+              padding: 10px 10px 10px 30px;
+              border-radius: 8px;
+              border: 1px solid $baseBlue;
+              color: $baseBlue;
+              position: relative;
+
+                img{
+                position: absolute;
+                height: 15px;
+                left: 8px;
+                top: 50%;
+                padding-right: 10px;
+                transform: translatey(-50%);
+                }
+
+              }
+              &.btn-header:hover {
+              background: $baseBlue;
+              color: white;
+              }
+            }
+          }
+        }
+    }
+  }
+}

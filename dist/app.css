@@ -1,0 +1,197 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);@import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css);/*REGOLE PRINCIPALI*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 60%;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Lato", sans-serif;
+}
+
+.btn-secondary {
+  color: white;
+  background: #30488f;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.logo {
+  vertical-align: middle;
+  width: 15px;
+  margin-right: 10px;
+}
+
+/*REGOLE PRINCIPALI ---> fontSize Media Queries*/
+
+@media all and (max-width: 1149px) {
+  * {
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  * {
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  * {
+    font-size: 12px;
+  }
+}
+
+#main_container {
+  max-width: 100vw;
+  height: auto;
+  overflow: hidden;
+}
+
+.header {
+  width: 100%;
+  height: 70px;
+}
+
+.header .container {
+  height: 100%;
+  border-bottom: 1px solid #565A5C;
+}
+
+.header .container .header-left,
+.header .container .header-right {
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+
+.header .container .header-left img {
+  height: 25px;
+  margin-top: 25px;
+}
+
+.header .container .header-right ul {
+  list-style: none;
+  text-align: right;
+  line-height: 70px;
+  font-size: 14px;
+}
+
+.header .container .header-right ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.header .container .header-right ul li a {
+  color: #565A5C;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header .container .header-right ul li a i {
+  margin-left: 5px;
+  color: #565A5C;
+}
+
+.header .container .header-right ul li a i:hover {
+  color: #30488f;
+}
+
+.header .container .header-right ul li a:hover {
+  color: #30488f;
+}
+
+.header .container .header-right ul li a.btn-header {
+  padding: 10px 10px 10px 30px;
+  border-radius: 8px;
+  border: 1px solid #30488f;
+  color: #30488f;
+  position: relative;
+}
+
+.header .container .header-right ul li a.btn-header img {
+  position: absolute;
+  height: 15px;
+  left: 8px;
+  top: 50%;
+  padding-right: 10px;
+  -webkit-transform: translatey(-50%);
+          transform: translatey(-50%);
+}
+
+.header .container .header-right ul li a.btn-header:hover {
+  background: #30488f;
+  color: white;
+}
+
+.jumbo {
+  width: 100%;
+  height: 400px;
+}
+
+.jumbo .container {
+  height: 100%;
+}
+
+.jumbo .container .jumbo-right,
+.jumbo .container .jumbo-left {
+  display: flex;
+  justify-content: center;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.jumbo .container .jumbo-left {
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 20px;
+}
+
+.jumbo .container .jumbo-left h1 {
+  font-size: 35px;
+  color: #565A5C;
+}
+
+.jumbo .container .jumbo-left p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.jumbo .container .jumbo-left .jumbo-left-bottom {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.jumbo .container .jumbo-left .jumbo-left-bottom a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.jumbo .container .jumbo-left .jumbo-left-bottom a:hover {
+  background: #233569;
+}
+
+.jumbo .container .jumbo-left .jumbo-left-bottom span {
+  color: #bdb5af;
+  margin: 0 10px;
+}
+
+.jumbo .container .jumbo-right {
+  align-items: center;
+}
+
+.jumbo .container .jumbo-right img {
+  width: 100%;
+}
+
+.section {
+  width: 100%;
+  height: 400px;
+  background: #FFE7D2;
+}
+
